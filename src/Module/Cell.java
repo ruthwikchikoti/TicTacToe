@@ -36,6 +36,7 @@ public class Cell {
     }
     public void setCellState(CellState cellState) {
         this.cellState = cellState;
+        
     }
 
 }

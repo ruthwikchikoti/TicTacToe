@@ -1,8 +1,8 @@
 package Exceptions;
 
-public class InvalidExceptions {
+public class InvalidExceptions extends Exception{
 
-    public InvalidExceptions() {
-        System.out.println(" Invalid Move! ");
+    public InvalidExceptions(String message) {
+        super(message);
     }
 }
